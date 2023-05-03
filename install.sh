@@ -150,8 +150,8 @@ install_XrayR() {
     cp geoip.dat /etc/XrayR/
     cp geosite.dat /etc/XrayR/ 
 
-    if [[ ! -f /etc/XrayR/vuthai.yml ]]; then
-        cp vuthai.yml /etc/XrayR/
+    if [[ ! -f /etc/XrayR/config.yml ]]; then
+        cp config.yml /etc/XrayR/
         echo -e ""
     else
         systemctl start XrayR
