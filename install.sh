@@ -150,10 +150,9 @@ install_XrayR() {
     cp geoip.dat /etc/XrayR/
     cp geosite.dat /etc/XrayR/ 
 
-    if [[ ! -f /etc/XrayR/config.yml ]]; then
-        cp config.yml /etc/XrayR/
+    if [[ ! -f /etc/XrayR/vuthai.yml ]]; then
+        cp vuthai.yml /etc/XrayR/
         echo -e ""
-        echo -e "全新安装，请先参看教程：https://github.com/XrayR-project/XrayR，配置必要的内容"
     else
         systemctl start XrayR
         sleep 2
