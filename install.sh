@@ -186,7 +186,7 @@ install_XrayR() {
     chmod +x /usr/bin/xrayr
     cd $cur_dir
     rm -f install.sh
-    echo -e ""
+    echo -e "https://github.com/XrayR-project/XrayR-release"
     echo "XrayR 管理脚本使用方法 (兼容使用xrayr执行，大小写不敏感): "
     echo "------------------------------------------"
     echo "XrayR                    - 显示管理菜单 (功能更多)"
